@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AditionalInfo</class>
+ <widget class="QWidget" name="AditionalInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1022</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="t_mujeres_le">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>20</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total de mujeres: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="t_hombres_le">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>60</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total de hombres: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="t_mujeres_v_le">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>68</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="t_hombres_v_le">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>60</y>
+     <width>68</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="municipios_listw">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>150</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mun_max_ing_le">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Municipio(s) con la 
+mayor cantidad de Ingresos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pac_edad_sup_le">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pacientes con edad superior a la media</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="pac_edad_sup_inf_tw">
+   <property name="geometry">
+    <rect>
+     <x>285</x>
+     <y>151</y>
+     <width>719</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
